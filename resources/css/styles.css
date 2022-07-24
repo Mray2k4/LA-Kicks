@@ -1,5 +1,5 @@
 body {
-    background-color:black;
+    background-color:white;
 }
 
 /* Top section */
@@ -42,10 +42,11 @@ img {
 }
 
 .soon {
-    padding-top: 30px;
+    padding: 30px 20px;
     font-size: 50px;
     font-weight: 30px;
-    color: whitesmoke;
+    color: black;
+    font-family: Jazz LET, fantasy;
 }
 
 /* Bottom section */
@@ -87,5 +88,6 @@ footer li img {
 
 h3 {
     padding-bottom: 50px;
-    color: whitesmoke;
+    color: black;
+    font-family: Jazz LET, fantasy;
 }
