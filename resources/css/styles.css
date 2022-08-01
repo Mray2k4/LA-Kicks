@@ -33,6 +33,7 @@ body {
     height: 500px;
     text-align: center;
     background-image: url("./resources/images/20220720_194351.jpg");
+    background-color: black;
 }
 
 img {
@@ -45,7 +46,7 @@ img {
     padding: 30px 20px;
     font-size: 50px;
     font-weight: 30px;
-    color: black;
+    color: whitesmoke;
     font-family: Jazz LET, fantasy;
 }
 
