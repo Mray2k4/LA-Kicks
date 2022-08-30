@@ -1,32 +1,54 @@
 body {
-    background-color:white;
+    background-color: whitesmoke;
 }
 
 /* Top section */
 
-.order {
+nav {
+    display: block;
+    padding: 10px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
     list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    }
-
-.order li {
-    cursor: pointer;
-    font-size: 20px;
+    position: relative;
 }
 
-.order a:active {
-    top: 2px;
+nav ul li a {
+    display: block;
+    padding: 12px 12px;
+    text-decoration: none;
 }
 
-.in, .up {
-    border: 1px solid;
-    border-radius: 5px;
-    text-align: center;
-    top: 3px;
-    color: white;
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
 }
 
+nav ul li:hover ul {
+    display: block;
+    
+}
+
+nav ul li ul li {
+    width: 150px;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+    padding: 8px 14px;
+    background-color: brown;
+}
 
 /* Middle section */
 .mid {
@@ -36,11 +58,16 @@ body {
     background-color: black;
 }
 
+.mid:hover {
+    color: red;
+}
+
 img {
     height: 350px;
     width: 1200px;
     position: relative;
 }
+
 
 .soon {
     padding: 30px 20px;
@@ -48,6 +75,13 @@ img {
     font-weight: 30px;
     color: whitesmoke;
     font-family: Jazz LET, fantasy;
+    margin: 0 120px;
+    
+    
+}
+
+.soon:hover {
+    color: red;
 }
 
 /* Bottom section */
@@ -92,3 +126,4 @@ h3 {
     color: black;
     font-family: Jazz LET, fantasy;
 }
+
