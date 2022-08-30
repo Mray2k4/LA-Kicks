@@ -1,5 +1,8 @@
+
+
 body {
     background-color: whitesmoke;
+
 }
 
 /* Top section */
@@ -7,6 +10,10 @@ body {
 nav {
     display: block;
     padding: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+
 }
 
 nav ul {
@@ -17,11 +24,12 @@ nav ul li {
     float: left;
     list-style: none;
     position: relative;
+    font-size: 20px;
 }
 
 nav ul li a {
     display: block;
-    padding: 12px 12px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
@@ -47,7 +55,13 @@ nav ul li ul li a {
 
 nav ul li ul li a:hover {
     padding: 8px 14px;
-    background-color: brown;
+    background-color: black;
+}
+
+/* Search Bar */
+
+form {
+    float: right;
 }
 
 /* Middle section */
@@ -56,6 +70,7 @@ nav ul li ul li a:hover {
     text-align: center;
     background-image: url("./resources/images/20220720_194351.jpg");
     background-color: black;
+    
 }
 
 .mid:hover {
@@ -80,9 +95,6 @@ img {
     
 }
 
-.soon:hover {
-    color: red;
-}
 
 /* Bottom section */
 h3 {
