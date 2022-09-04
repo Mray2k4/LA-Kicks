@@ -13,8 +13,6 @@ nav {
     width: 100%;
     height: 60px;
     background-color: rgb(63, 63, 63);
-
-
 }
 
 nav ul {
@@ -25,14 +23,23 @@ nav ul li {
     float: left;
     list-style: none;
     position: relative;
-    font-size: 20px;
-    
+    font-size: 20px; 
+    color: rgba(255, 0, 0, 0.662); 
+}
+
+nav ul li:hover {
+    border: solid black;
+    border-radius: 5px 5px;
+    background-color: rgba(255, 0, 0, 0.662);
+    color: whitesmoke;
 }
 
 nav ul li a {
     display: block;
     padding: 10px 12px;
     text-decoration: none;
+    color: rgba(255, 0, 0, 0.662);
+    
 }
 
 nav ul li ul {
@@ -49,10 +56,12 @@ nav ul li:hover ul {
 
 nav ul li ul li {
     width: 150px;
+    color: whitesmoke;
 }
 
 nav ul li ul li a {
     padding: 8px 14px;
+    color: whitesmoke;
 }
 
 nav ul li ul li a:hover {
@@ -60,6 +69,13 @@ nav ul li ul li a:hover {
     background-color: black;
     color: whitesmoke;
 }
+
+.home:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
 
 /* Search Bar */
 
@@ -89,7 +105,7 @@ button:active {
 }
 
 .mid:hover {
-    color: red;
+    color: rgba(255, 0, 0, 0.662);
 }
 
 img {
