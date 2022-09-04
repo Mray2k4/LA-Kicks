@@ -28,15 +28,17 @@ nav ul li {
 }
 
 nav ul li:hover {
-    border: solid black;
-    border-radius: 5px 5px;
+    border-top: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    
     background-color: rgba(255, 0, 0, 0.662);
     color: whitesmoke;
 }
 
 nav ul li a {
     display: block;
-    padding: 10px 12px;
+    padding: 9px 12px;
     text-decoration: none;
     color: rgba(255, 0, 0, 0.662);
     
